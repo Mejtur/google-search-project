@@ -1,0 +1,35 @@
+.results__container {
+  padding-top: 150px;
+}
+
+.results__buttons {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results__buttons button {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #707070;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.results__buttonClick:hover {
+  color: white;
+  background: #707070;
+}
+
+.results__buttons button,
+p {
+  margin: 10px 40px;
+}
+
+@media (max-width: 425px) {
+  .results__buttons button,
+  p {
+    margin: 10px 10px;
+  }
+}

@@ -1,3 +1,47 @@
 .navbar {
-  box-shadow: 3px 3px 2px 2px #ccc;
+  box-shadow: 3px 3px 6px 3px #707070;
+  display: flex;
+  padding: 20px;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+.navbar > .navbar__title {
+  padding: 8px;
+  font-size: 2em;
+  color: #707070;
+}
+
+.navbar__title {
+  font-size: 1em;
+  color: #707070;
+}
+
+.navbar__searchContainer {
+  width: 60%;
+  margin-left: 20px;
+  border: 1px solid #707070;
+  display: flex;
+  border-radius: 10px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__searchContainer input {
+  border: none;
+  width: 90%;
+}
+
+.navbar__searchContainer input {
+  outline: none;
+}
+
+.navbar__searchIcon {
+  cursor: pointer;
+  font-size: 2em;
+  color: #707070;
 }
